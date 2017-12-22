@@ -1,0 +1,28 @@
+{
+  "name": "the-crypt",
+  "version": "1.0.0",
+  "description": "let's use dogecoins",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimorse/the-crypt.git"
+  },
+  "author": "vimorse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimorse/the-crypt/issues"
+  },
+  "homepage": "https://github.com/vimorse/the-crypt#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mongoose": "^4.13.7",
+    "nodemon": "^1.14.1",
+    "path": "^0.12.7"
+  }
+}

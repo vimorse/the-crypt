@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="crypt">
+<head>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../node_modules/angular-route/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+
+    <script type="text/javascript" src="./view/home/home.controller.js"></script>
+    <script type="text/javascript" src="./view/login/login.controller.js"></script>
+    <script type="text/javascript" src="./view/market/market.controller.js"></script>
+    <script type="text/javascript" src="./view/register/register.controller.js"></script>
+
+    <script type="text/javascript" src="./service/user.service.js"></script>
+    <script type="text/javascript" src="./service/crypt.service.js"></script>
+
+    <link rel="stylesheet" href="./res/style/style.css">
+    <link rel="stylesheet" href="./res/style/animation.css">
+    <link rel="stylesheet" href="./view/home/home.css">
+
+    <title>The Crypt</title>
+</head>
+<body>
+    <ng-view></ng-view>
+</body>
+</html>

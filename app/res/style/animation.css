@@ -1,0 +1,13 @@
+@keyframes dig-float {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 30px); }
+    to   { transform: translate(0, -0px); }
+}
+
+@keyframes dig-float-slow{
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 5px); }
+    to   { transform: translate(0, -0px); }
+}
+
+@keyframes none {}
